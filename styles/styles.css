@@ -1,0 +1,185 @@
+/*Colors
+light blue = #14c9f0
+medium blue =  #0697b2
+dark blue = #0524bd
+light grey = #d2d8df
+soft white = #f4f5f6
+black = #202122
+white = #ffffff
+*/
+
+/*Global*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding: 0;
+  margin: 0;
+  background-color:#d2d8df;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  width: 87%;
+  margin:auto;
+  overflow:hidden;
+}
+
+/*Header*/
+header{
+  background-color:#0524bd;
+  font-size: 16px;
+  color:#ffffff;
+  padding-top:15px;
+  min-height: 70px;
+  border-bottom:#14c9f0 4px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+header #pagename{
+  float:left;
+}
+
+header #pagename h1{
+  margin:10px 0 0 0;
+}
+
+header nav{
+  float:right;
+  margin-top:26px;
+}
+
+header .current a{
+  color: #14c9f0;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+}
+
+header .current a:hover{
+  color: #0697b2;
+}
+
+/*footer*/
+footer div p{
+  text-align: center;
+
+}
+
+
+/*Showcase*/
+#showcase{
+  min-height:200px;
+}
+
+#showcase h1{
+  text-align:center;
+  font-size: 35px;
+}
+
+/*Panels*/
+#panels{
+  text-align: center;
+}
+
+#panel_1 a{
+  background: url("../images/IDE.png") no-repeat -400px 0;
+  background-size: cover;
+  text-decoration: none;
+  text-transform: uppercase;
+  display:inline-block;
+  height:600px;
+  width:33%;
+  opacity: 0.7;
+  position:relative;
+  float:left;
+}
+
+#panel_1 a:hover{
+  width:45%;
+  opacity: 1.0;
+}
+
+#panel_1 a span{
+  position:absolute;
+  top:15%;
+  left:0%;
+  margin:0 20px 20px 0;
+  padding:0;
+  font-size:35px;
+  color:#f4f5f6;
+}
+
+#panel_2 a{
+  background: url("../images/DAW.jpg") no-repeat -350px 0;
+  background-size:cover;
+  text-decoration: none;
+  text-transform: uppercase;
+  display:inline-block;
+  height:600px;
+  width:33%;
+  opacity: 0.7;
+  position:relative;
+  float:left;
+}
+
+#panel_2 a:hover{
+  width:45%;
+  opacity: 1.0;
+}
+
+#panel_2 a span{
+  position:absolute;
+  top:15%;
+  left:0%;
+  margin:0 20px 20px 0;
+  padding:0;
+  font-size:35px;
+  color:#f4f5f6;
+}
+
+#panel_3 a{
+  background: url("../images/Volleyball.jpg") no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  text-transform: uppercase;
+  display:inline-block;
+  height:600px;
+  width:33%;
+  opacity: 0.7;
+  position:relative;
+  float:left;
+}
+
+#panel_3 a:hover{
+  width:45%;
+  opacity: 1.0;
+}
+
+#panel_3 a span{
+  position:absolute;
+  top:15%;
+  left:0%;
+  padding:0;
+  font-size:35px;
+  color:#f4f5f6;
+}
