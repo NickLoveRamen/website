@@ -183,3 +183,16 @@ footer div p{
   font-size:35px;
   color:#f4f5f6;
 }
+
+#startButton {
+  text-align:center;
+  font-size: 35px;
+}
+
+#buttonContainer {
+  text-align:center;
+}
+
+#canvas {
+  border:1px solid #000000;
+}
